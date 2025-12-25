@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Local Claude Code settings (contains user-specific permissions)
+.claude/settings.local.json
+
+# Runtime workspace (created during /build)
+.claude-workspace/
+
+# Large reference files (not part of blueprint)
+*.pdf
+
+# Test projects
+claude_mind_test/
+
+# Node modules (if any)
+node_modules/
+
+# Environment files with secrets
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
